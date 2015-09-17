@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício - 2ª ADO</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="ADO2.css"/>
+</head>
+<body>
+	<form name="Form1" method="post" action="ADO2.php" id="form1">.
+    	<fieldset>
+    		<legend>Fomulario de Automovel</legend>
+    		Usuário <input type="text" name="nomeUsuario" size="40"/>
+      		Senha <input type="password" name="senhaUsuario"/>
+
+      		<p class="paragrafo1">Você possui algum transporte particular ?</p>
+
+      		<label>
+      			<div id="form-options">
+      				<input type="radio" name="opcoes" value="sim"/>Sim <br/>
+      				<input type="radio" name="opcoes" value="nao"/>Não <br/>
+      			</div>
+      		</label>
+
+      		<p class="paragrafo2">Escolha uma das opções abaixo: </p>
+
+      		<select name="exemplo" id="valores">
+ 				<option>Carro</option>
+		 		<option>Moto</option> 		
+	  		</select>
+
+	    	<p class="paragrafo3">Escreva abaixo os detalhes do seu veículo: </p>
+
+      		<textarea name="areaTexto" rows="8" cols="80"></textarea>
+
+      		<label>
+	    		<div id="Botoes">
+        			<input type="reset" name="botao" value="Limpar"/>
+        			<input type="submit" name="botao" value="Enviar"/>
+      			</div>
+      		</label>
+      	</fieldset>
+	</form>
+</body>
+</html>
